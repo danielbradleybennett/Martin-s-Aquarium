@@ -1,0 +1,31 @@
+body {
+  background-color: goldenrod;
+}
+
+.content{
+  display: flex;
+}
+
+img {
+  max-width: 100%;
+}
+
+.fishies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: space-evenly;
+}
+
+.fishies__card {
+  flex-basis: 30%;
+}
+
+aside{
+  width: 30%;
+  border: 1px solid red;
+  padding: 5px;
+}
+
+.places {display: flex;
+justify-content: space-evenly;}
