@@ -88,7 +88,7 @@ document.querySelector("#button--Bubbles").addEventListener(
 
 
  const allDetailButtons = document.querySelectorAll("button[id^='button--']")
-console.log(allDetailButtons)
+// console.log(allDetailButtons)
  // Add an event listener to each one
  for (const btn of allDetailButtons) {
      btn.addEventListener(

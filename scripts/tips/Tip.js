@@ -2,9 +2,8 @@
 const tipComponent = (tips) => {
 return `
   <div class="tip">
-    <div> ${tips.tips}</div>
-    
-    
+    <h1 class="tipTitle"> ${tips.title}<h1>
+    <p class ="tipTips"> ${tips.tips}</p>
   </div> `
 }
 

@@ -49,7 +49,43 @@ const fishCollection = [
       species: "demon fish",
       food: ["everything"],
       img: "./styles/pictures/openMaw.jpg"
-  }
+  },
+
+  {
+    name: "Jerry",
+    location: "Water Deep",
+    length: "5ft",
+    species: "demon fish",
+    food: ["everything"],
+    img: "./styles/pictures/openMaw.jpg"
+},
+
+{
+    name: "Muse",
+    location: "Water Deep",
+    length: "5ft",
+    species: "demon fish",
+    food: ["everything"],
+    img: "./styles/pictures/openMaw.jpg"
+},
+
+{
+    name: "Muse",
+    location: "Water Deep",
+    length: "5ft",
+    species: "demon fish",
+    food: ["everything"],
+    img: "./styles/pictures/openMaw.jpg"
+},
+
+{
+    name: "Muse",
+    location: "Water Deep",
+    length: "5ft",
+    species: "demon fish",
+    food: ["everything"],
+    img: "./styles/pictures/openMaw.jpg"
+}
 ]
 
 export const useFish = () => {
