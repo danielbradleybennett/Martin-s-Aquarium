@@ -15,8 +15,8 @@ const fishCollection = [
       location: "pond",
       length: "3inch",
       species: "souleater",
-      food: "souls",
-      img: "fish.jpg",
+      food: ["souls"],
+      img: "./styles/pictures/openMaw.jpg"
   },
 
 
@@ -26,8 +26,8 @@ const fishCollection = [
       location: "Loch Lomand",
       length: "20ft",
       species: "no flipping clue",
-      food: "picky eater",
-      img: "fish.jpg",
+      food: ["picky eater"],
+      img: "./styles/pictures/openMaw.jpg"
   },
 
 
@@ -37,10 +37,9 @@ const fishCollection = [
       location: "Novir",
       length: "5ft",
       species: "goatfish",
-      img: "fish.jpg",
+      img: "./styles/pictures/openMaw.jpg",
+      food: ["something"]
   },
-
-
 
 
   {
@@ -48,7 +47,8 @@ const fishCollection = [
       location: "Water Deep",
       length: "5ft",
       species: "demon fish",
-      food: "everything",
+      food: ["everything"],
+      img: "./styles/pictures/openMaw.jpg"
   }
 ]
 
