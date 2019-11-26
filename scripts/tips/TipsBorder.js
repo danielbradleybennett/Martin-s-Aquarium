@@ -1,4 +1,5 @@
-const borderColorChange = () => {
+
+ const borderColorChange = () => {
   const fishTips = document.querySelectorAll(".tip")
 
   for (const tip of fishTips) {
@@ -16,4 +17,5 @@ const borderColorChange = () => {
   }
 }
 
-export default borderColorChange
+ export default borderColorChange
+
