@@ -7,7 +7,7 @@ import tipComponent from "./Tip.js"
 const TipListComponent = () => {
 
   
-  const contentElement = document.querySelector(".martinTips")
+  const contentElement = document.querySelector(".fishTips")
   const tips = useTip()
 
   let allTipHTML = ""
@@ -21,9 +21,9 @@ const TipListComponent = () => {
 
  
   contentElement.innerHTML += `
-      <section class="martinTips">
+      
           ${allTipHTML}
-      </section>
+     
   `
 }
 

@@ -6,7 +6,7 @@
       tip.addEventListener(
           "mouseover",
           (theMouseOverEvent) => {
-              tip.style.border = "5px solid";
+              tip.style.border = "blue 5px solid";
           }
       )
 

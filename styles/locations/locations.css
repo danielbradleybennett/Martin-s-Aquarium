@@ -4,30 +4,46 @@ body {background-color: seagreen;
     
 }
 
+.locationList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+
 .locations {
-      border: solid 1px black;
-      justify-content: space-evenly;
+      
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-evenly;
       color: gold;
+}
+
+.location {
+  flex-basis: 30%;
+
 }
 
 .place {
         flex-basis: 30%;
-        border: black solid 1px;
+        border: black solid 3px;
         justify-content: center;
 }
 
 .quotes {border: solid 1px black; 
+  color: silver;
   font-weight: bold;
-  color: white;
     
 }
 a{text-decoration: none;
   margin: 2vw;
   justify-content: space-evenly;
 }
+
 nav {margin: 2vw;}
+
+
 .travel { font-weight: bold; 
           font-size: 20px;
           color: white;

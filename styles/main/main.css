@@ -13,27 +13,31 @@ display: flex;
 }
 
 .fishList {flex-basis: 48%;
+  justify-content: space-evenly;
 
 }
+
+
 
 
 
 .fish { 
   flex-basis: 26%;
+  padding: 25px;
 
 }
 
 
 .fish__image {
-  width: 200px;
+  width: 250px;
 
 }
 
 
-aside{
-  width: 30%;
-  border: 5px solid black;
-  padding: px;
+aside {
+  width: 25%;
+  border: px solid black;
+  
 }
 
 .content {
@@ -41,6 +45,22 @@ aside{
   flex-wrap: wrap;
   justify-content: space-evenly;
   flex-direction: row;
+  
+
+}
+
+.tip { 
+  padding: 10xp;
+  border: solid;
+  
+  
+}
+
+.tipTips {
+  color: silver;
+  
+  font-style: italic;
+  text-align: center;
   
 
 }
